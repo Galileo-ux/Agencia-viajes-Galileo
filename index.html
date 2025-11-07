@@ -94,7 +94,9 @@
                 <input type="number" id="dias-individual" name="dias-individual" min="1" max="365">
             </div>
 
-            <button type="submit" class="submit-btn">Cotización Individual</button>
+            <button type="button" onclick="calcular()">Cotización Individual</button>
+
+<p id="ind-total">Total: $0 MXN</p>
         </section>
 
         <!-- SECCIÓN 2: PAQUETES -->
@@ -135,15 +137,15 @@
                 </div>
             </div>
 
-            <button type="submit" class="submit-btn">Cotización Paquetes</button>
+<button type="button" class="submit-btn" onclick="calcularPaquetes()">Cotización Paquetes</button>
         </section>
     </div>
 
     <!-- PIE DE PÁGINA -->
     <footer class="footer">
-        <p><strong>Ricardo Arturo Elizalde</strong></p>
-        <p>Matrícula: 12345678</p>
-        <p>WEB PAGE</p>
+        <p><strong>Galileo San Miguel Cardona</strong></p>
+        <p>Matrícula: 45093</p>
+        <p>WEB PAGE TRAVEL AGENCY</p>
     </footer>
 
 
